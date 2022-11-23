@@ -4,12 +4,12 @@ import org.testng.annotations.Test;
 
 public class Batch_Execution_exp2 {
 
-	@Test(groups = {"smoke","functional"})
+	@Test
 	public void England() {
 		System.out.println("London");
 	}
 
-	@Test(groups = {"smoke"})
+	@Test
 	public void Australia() {
 		System.out.println("Sydney");
 	}
